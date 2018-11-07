@@ -14,3 +14,10 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// investigadores
+Route::get('investigadores',['as' => 'investigadores-index','uses'=>'InvestigadorController@index']);
+
+
+// investigaciones upn
+Route::get('investigacion',['as' => 'investigacionUpn-index','uses'=>'InvestigacionUpnController@index']);
