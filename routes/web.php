@@ -14,7 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
 
 // investigadores
 Route::get('investigadores',['as' => 'investigadores-index','uses'=>'InvestigadorController@index']);
@@ -22,6 +21,4 @@ Route::get('investigadores',['as' => 'investigadores-index','uses'=>'Investigado
 
 // investigaciones upn
 Route::get('investigacion',['as' => 'investigacionUpn-index','uses'=>'InvestigacionUpnController@index']);
-=======
 Route::get('Nosotros',['as'=>'nosotros','uses'=>'ControllerNosotros@index']);
->>>>>>> 51bb91c9c85eb433947e11fa38f324601a7c99b5
