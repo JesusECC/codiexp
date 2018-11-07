@@ -23,6 +23,7 @@
     <link href="{{asset('styles/main_styles.css')}}" rel="stylesheet">
     <!-- You can change the theme colors from here -->
     <link href="{{asset('styles/responsive.css')}}"  rel="stylesheet">
+
 </head>
 
 <body class="fix-header fix-sidebar card-no-border">
@@ -77,7 +78,7 @@
                             <nav class="main_nav_contaner ml-auto">
                                 <ul class="main_nav">
                                     <li class="active"><a href="#">INICIO</a></li>
-                                    <li><a href="about.html">¿QUIENES SOMOS?</a></li>
+                                    <li><a href="{{route('nosotros')}}">¿QUIENES SOMOS?</a></li>
                                     <li><a href="courses.html">INVESTIGADORES</a></li>
                                     <li><a href="news.html">INVESTIGACIONES CODIEXP</a></li>
                                     <li><a href="contact.html">INVESTIGACIONES UPN</a></li>
@@ -122,8 +123,8 @@
         <div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
         <nav class="menu_nav">
             <ul class="menu_mm">
-                <li class="menu_mm"><a href="index.html">INICIO</a></li>
-                <li class="menu_mm"><a href="courses.html">¿QUIENES SOMOS?</a></li>
+                <li class="menu_mm"><a href="#">INICIO</a></li>
+                <li class="menu_mm"><a href="{{route('nosotros')}}">¿QUIENES SOMOS?</a></li>
                 <li class="menu_mm"><a href="instructors.html">INVESTIGADORES</a></li>
                 <li class="menu_mm"><a href="#">INVESTIGACIONES CODIEXP</a></li>
                 <li class="menu_mm"><a href="blog.html">INVESTIGACIONES CODIEXP</a></li>
