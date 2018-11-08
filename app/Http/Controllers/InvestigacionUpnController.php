@@ -2,7 +2,10 @@
 
 namespace codiexp\Http\Controllers;
 
+use codiexp\Investigacion;
 use Illuminate\Http\Request;
+
+use DB;
 
 class InvestigacionUpnController extends Controller
 {
