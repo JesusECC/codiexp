@@ -8,7 +8,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <!-- Favicon icon -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119519720-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'UA-119519720-1');
+        </script>
+        <!-- Favicon icon -->
     <title>CODIEXP</title>
     <!-- Bootstrap Core CSS -->
     <link href="{{asset('styles/bootstrap4/bootstrap.min.css')}}" rel="stylesheet">
