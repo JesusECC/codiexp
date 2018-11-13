@@ -14,7 +14,9 @@
 					<h3><a href="#">{{$in->titulo}}</a></h3>
 					<p>{{ substr($in->descripcion, 0, 200)}}...</p>
 					<ul class="actions">
-						<li><a href="{{route('investigacion',$in->id)}}" class="button style1">Leer más</a></li>
+						<li>
+                        
+                        </li>
                     </ul>        
                 </section>
            
