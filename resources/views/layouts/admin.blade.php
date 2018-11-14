@@ -77,7 +77,7 @@
                     <div class="col">
                         <div class="header_content d-flex flex-row align-items-center justify-content-start">
                             <div class="logo_container">
-                                <a href="#">
+                                <a href="{{ route('inicio') }}">
                                     <div class="logo_content d-flex flex-row align-items-end justify-content-start">
                                         <div class="logo_img"><!--<img src="images/codiex-logo.jpeg" alt="" width="263" height="178">--></div>
                                         <div class="logo_text">CODIEXP <span style="color: #D6A22A">UPN</span></div>
