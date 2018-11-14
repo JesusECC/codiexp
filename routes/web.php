@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 // inicio
-Route::get('/',['as' => 'inicio','uses'=>'InvestigadorController@index']);
+// Route::get('/',['as' => 'inicio','uses'=>'InvestigadorController@index']);
 // investigadores
 Route::get('investigadores',['as' => 'investigadores-index','uses'=>'InvestigadorController@index']);
 
