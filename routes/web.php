@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 // inicio
-// Route::get('/',['as' => 'inicio','uses'=>'InvestigadorController@index']);
+Route::get('/',['as' => 'inicio','uses'=>'InicioController@index']);
 // investigadores
 Route::get('investigadores',['as' => 'investigadores-index','uses'=>'InvestigadorController@index']);
 
@@ -26,7 +26,6 @@ Route::get('investigaciones/upn',['as' => 'investigacionesUpn-index','uses'=>'In
 
 //ruta para ver el paper de upn
 Route::get('investigacion/{id}/upn',['as' => 'investigacionUpn-index','uses'=>'InvestigacionController@investigacion']);
-
 
 Route::get('Nosotros',['as'=>'nosotros','uses'=>'ControllerNosotros@index']);
 
