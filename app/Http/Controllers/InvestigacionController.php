@@ -22,6 +22,15 @@ class InvestigacionController extends Controller
         ->get();
         return view("investigacion.index",['investigacion'=>$investigacion]);    
     }
+    public function investigacion($id)
+    {
+        $investigacion = DB::table('articulo')
+        ->where('id','=',$id)
+        ->get();
+        // dd($investigacion);
+        return view("investigacionesUpn.paper",['investigacion'=>$investigacion]);
+    
+    }
 
     /**
      * Show the form for creating a new resource.

@@ -164,7 +164,7 @@ h3 {
 							{{ substr($in->descripcion, 0, 100)}}...
 						</div>
 						<div class="course_header d-flex flex-row align-items-center justify-content-start btn-top">
-							<div class="course_tag"><a href="#">Ver Más</a></div>
+							<div class="course_tag"><a href="{{ route('investigacionUpn-index',$in->id)}}">Ver Más</a></div>
 						</div>
 					</div>
 				</div>

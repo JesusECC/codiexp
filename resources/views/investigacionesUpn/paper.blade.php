@@ -143,11 +143,11 @@ img {
 				<div class="featured_content">
 					<div class="featured_title">
 						<h3>
-							<a href="">Título del paper</a>
+							<a href="">{{$investigacion[0]->titulo}} - {{$investigacion[0]->año}} </a>
 						</h3>
 					</div>
 					<div class="col-lg-6 featured_col">
-						Abstract del paper
+                        {{$investigacion[0]->descripcion}}
 					</div>
 					<div class="featured_footer d-flex align-items-center justify-content-start">
 						<div class="featured_author_image">
@@ -163,6 +163,7 @@ img {
 				<div class="featured_background" style="background-image:url(images/featured.jpg)">
 				</div>
 			</div>
+            sdasd
 		</div>
 	</div>
 </div>

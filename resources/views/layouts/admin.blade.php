@@ -89,8 +89,8 @@
                                     <li class="active"><a href="#">INICIO</a></li>
                                     <li><a href="{{ route('nosotros') }}">¿QUIENES SOMOS?</a></li>
                                     <li><a href="{{ route('investigadores-index') }}">INVESTIGADORES</a></li>
-                                    <li><a href="{{ route('investigacion-index') }}">INVESTIGACIONES CODIEXP</a></li>
-                                    <li><a href="{{ route('investigacionUpn-index') }}">INVESTIGACIONES UPN</a></li>
+                                    <li><a href="{{ route('investigaciones-index') }}">INVESTIGACIONES CODIEXP</a></li>
+                                    <li><a href="{{ route('investigacionesUpn-index') }}">INVESTIGACIONES UPN</a></li>
                                 </ul>
                                 <!--<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>-->
 

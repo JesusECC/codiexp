@@ -19,7 +19,13 @@ Route::get('/', function () {
 Route::get('investigadores',['as' => 'investigadores-index','uses'=>'InvestigadorController@index']);
 
 // investigaciones codiexp
-Route::get('investigacion',['as' => 'investigacion-index','uses'=>'InvestigacionController@index']);
+Route::get('investigaciones',['as' => 'investigaciones-index','uses'=>'InvestigacionController@index']);
 // investigaciones upn
-Route::get('investigacion/upn',['as' => 'investigacionUpn-index','uses'=>'InvestigacionUpnController@index']);
+Route::get('investigaciones/upn',['as' => 'investigacionesUpn-index','uses'=>'InvestigacionUpnController@index']);
+
+//ruta para ver el paper de upn
+Route::get('investigacion/{id}/upn',['as' => 'investigacionUpn-index','uses'=>'InvestigacionController@investigacion']);
+
+
 Route::get('Nosotros',['as'=>'nosotros','uses'=>'ControllerNosotros@index']);
+
