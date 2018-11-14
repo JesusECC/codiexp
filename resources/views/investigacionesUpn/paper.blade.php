@@ -11,7 +11,7 @@
     font-size: 14px;
     color: #6c6a74;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     line-height: 2.14;
     margin-bottom: 20px;
 }
@@ -23,22 +23,14 @@ h1, h2, h3, h4, h5, h6 {
     text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 .featured_row {
-    margin-top: 100px;
-}
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-top: 50px;
 }
 .featured_col:last-child {
     padding-left: 0;
 }
 .featured_content {
     padding-left: 50px;
-    padding-top: 63px;
+    padding-top: 20px;
     padding-right: 50px;
     padding-bottom: 41px;
     background: #f2f1f8;
@@ -54,6 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     -ms-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
+    font-size: 15px;
 }
 .featured_text {
     margin-top: 18px;
@@ -128,8 +121,12 @@ img {
     background-size: cover;
     background-position: center center;
 }
+.featured_row {
+    margin-top: 100px;
+}
+
 </style>
-<div class="course">
+<div class="courses">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 offset-lg-1">
@@ -146,7 +143,7 @@ img {
 							<a href="">{{$investigacion[0]->titulo}} - {{$investigacion[0]->año}} </a>
 						</h3>
 					</div>
-					<div class="col-lg-6 featured_col">
+					<div class="featured_text">
                         {{$investigacion[0]->descripcion}}
 					</div>
 					<div class="featured_footer d-flex align-items-center justify-content-start">
@@ -163,7 +160,9 @@ img {
 				<div class="featured_background" style="background-image:url(images/featured.jpg)">
 				</div>
 			</div>
-            sdasd
+		</div>
+		<div class="row">
+			asasas
 		</div>
 	</div>
 </div>
