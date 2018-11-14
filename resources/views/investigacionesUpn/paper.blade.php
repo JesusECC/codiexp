@@ -157,15 +157,21 @@ img {
 				</div>
 			</div>
 			<div class="col-lg-6 featured_col">
-				<div class="featured_background" style="background-image:url(images/featured.jpg)">
-                    <img src="{{asset('images/papers/paper1.jpg')}}" alt="">
+				<div class="featured_background" style="">
+                    <img src="{{asset('images/papers/paper1.jpg')}}" alt="" width="100%">
 				</div>
 			</div>
 		</div>
-		<div class="row">
-        <div>
-			<embed src="{{asset('archivos/'.$investigacion[0]->ruta.'#toolbar=0')}}" width="900" height="1064">
-		</div> 
+		<div class="row " style="margin-top:40px;">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-10">
+                <embed src="{{asset('archivos/'.$investigacion[0]->ruta.'#toolbar=0')}}" width="900" height="1064">
+            </div> 
+            <div class="col-md-1">
+            
+            </div>
 		</div>
 	</div>
 </div>
