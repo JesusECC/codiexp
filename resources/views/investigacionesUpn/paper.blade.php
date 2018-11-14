@@ -150,7 +150,7 @@ img {
 						<div class="featured_author_image">
 							<img src="" alt="">
 						</div>
-						<div class="featured_author_name">
+						<div class="featured_author_name">  
 							<a href="">Nombre del autor o autores</a>
 						</div>
 					</div>
@@ -158,11 +158,14 @@ img {
 			</div>
 			<div class="col-lg-6 featured_col">
 				<div class="featured_background" style="background-image:url(images/featured.jpg)">
+                    <img src="{{asset('images/papers/paper1.jpg')}}" alt="">
 				</div>
 			</div>
 		</div>
 		<div class="row">
-			asasas
+        <div>
+			<embed src="{{asset('archivos/'.$investigacion[0]->ruta.'#toolbar=0')}}" width="900" height="1064">
+		</div> 
 		</div>
 	</div>
 </div>

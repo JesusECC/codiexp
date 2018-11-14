@@ -143,7 +143,7 @@ h3 {
 					<h2>Investigaciones UPN</h2>
 				</div>
 				<div class="section_subtitle">
-					Repositorio oficial de los papers de los Investigadores de CODIEXP
+					Desarrollo de investigaciones de alumnos de la Universidad Priva del Norte
 				</div>				
 			</div>
 		</div>
