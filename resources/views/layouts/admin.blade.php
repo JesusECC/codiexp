@@ -174,7 +174,7 @@
                             <a href="#">
                                 <div class="logo_content d-flex flex-row align-items-end justify-content-start">
                                     
-                                    <div class="logo_text">CODIEXP <span style="color: #D6A22A">UPN</span></div>
+                                    <div class="logo_text">CODIEXP <span style="color: #D6A22A"></span></div>
                                 </div>
                             </a>
                         </div>
