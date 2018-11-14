@@ -20,7 +20,7 @@ class InvestigacionUpnController extends Controller
         $investigacion = DB::table('articulo')
         ->where('realizo','=','upn')
         ->get();
-        return view("investigaciones.index",['investigacion'=>$investigacion]);    
+        return view("investigacionesUpn.index",['investigacion'=>$investigacion]);    
     }
 
     /**

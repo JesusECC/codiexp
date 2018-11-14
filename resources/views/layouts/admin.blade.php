@@ -88,9 +88,9 @@
                                 <ul class="main_nav">
                                     <li class="active"><a href="#">INICIO</a></li>
                                     <li><a href="{{route('nosotros')}}">¿QUIENES SOMOS?</a></li>
-                                    <li><a href="courses.html">INVESTIGADORES</a></li>
-                                    <li><a href="news.html">INVESTIGACIONES CODIEXP</a></li>
-                                    <li><a href="contact.html">INVESTIGACIONES UPN</a></li>
+                                    <li><a href="{{route('investigadores')}}">INVESTIGADORES</a></li>
+                                    <li><a href="{{route('investigacion')}}">INVESTIGACIONES CODIEXP</a></li>
+                                    <li><a href="{{route('investigacion/upn')}}">INVESTIGACIONES UPN</a></li>
                                 </ul>
                                 <!--<div class="search_button"><i class="fa fa-search" aria-hidden="true"></i></div>-->
 

@@ -18,7 +18,8 @@ Route::get('/', function () {
 // investigadores
 Route::get('investigadores',['as' => 'investigadores-index','uses'=>'InvestigadorController@index']);
 
-
+// investigaciones codiexp
+Route::get('investigacion',['as' => 'investigacion-index','uses'=>'InvestigacionController@index']);
 // investigaciones upn
-Route::get('investigacion',['as' => 'investigacionUpn-index','uses'=>'InvestigacionUpnController@index']);
+Route::get('investigacion/upn',['as' => 'investigacionUpn-index','uses'=>'InvestigacionUpnController@index']);
 Route::get('Nosotros',['as'=>'nosotros','uses'=>'ControllerNosotros@index']);

@@ -5,6 +5,8 @@ namespace codiexp\Http\Controllers;
 use codiexp\Investigacion;
 use Illuminate\Http\Request;
 
+
+use DB;
 class InvestigacionController extends Controller
 {
     /**
@@ -15,6 +17,10 @@ class InvestigacionController extends Controller
     public function index()
     {
         //
+        $investigacion = DB::table('articulo')
+        ->where('realizo','=','cic')
+        ->get();
+        return view("investigacion.index",['investigacion'=>$investigacion]);    
     }
 
     /**
@@ -25,6 +31,7 @@ class InvestigacionController extends Controller
     public function create()
     {
         //
+
     }
 
     /**
