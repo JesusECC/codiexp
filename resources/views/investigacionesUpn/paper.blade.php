@@ -151,7 +151,7 @@ img {
 							<img src="" alt="">
 						</div>
 						<div class="featured_author_name">  
-							<a href="">Nombre del autor o autores</a>
+							<!-- nombre del autor -->
 						</div>
 					</div>
 				</div>
