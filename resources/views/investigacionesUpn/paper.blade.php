@@ -158,7 +158,7 @@ img {
 			</div>
 			<div class="col-lg-6 featured_col">
 				<div class="featured_background" style="">
-                    <img src="{{asset('images/papers/'.$investigacion[0]->foto)}}" alt="" width="100%">
+                    <img src="{{asset('images/papers/'.$investigacion[0]->foto)}}" alt="" width="100%" height="100%">
 				</div>
 			</div>
 		</div>

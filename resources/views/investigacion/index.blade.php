@@ -52,11 +52,14 @@
     content: '';
 }
 .course_image img {
-    max-width: 100%;
+    width:100% !important;
+    height:300px !important;
+    
 }
 img {
     vertical-align: middle;
     border-style: none;
+    
 }
 .course_title {
     margin-top: 5px;
@@ -152,7 +155,7 @@ h3 {
 			<div class="col-lg-4 col-md-6">
 				<div class="course">
 					<div class="course_image">
-						<img src="{{asset('images/papers/'.$in->foto)}}" alt="" width="100%" height="25%">
+						<img src="{{asset('images/papers/'.$in->foto)}}" alt="" width="20%" height="20%">
 					</div>
 					<div class="course_body">
 						<div class="course_title">
