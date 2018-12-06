@@ -59,8 +59,8 @@
                                 </ul>
                                 <div class="top_bar_login ml-auto">
                                     <ul>
-                                        <li><a href="#">Registrate</a></li>
-                                        <li><a href="#">Login</a></li>
+                                        <!-- <li><a href="#">Registrate</a></li>
+                                        <li><a href="#">Login</a></li> -->
                                     </ul>
                                 </div>
                             </div>
@@ -208,14 +208,15 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 footer_col">
+                <div class="col-lg-4 footer_col">
                     <div class="footer_links">
                         <div class="footer_title">Redes Sociales</div>
-
+                        
+                        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FComunidad-de-Investigacion-Experimental-Codiexp-341205856429480%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=359817531444224" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
 
-                <div class="col-lg-3 footer_col">
+                <div class="col-lg-2 footer_col">
                     <div class="footer_contact">
                         <div class="footer_title">Contáctenos</div>
                         <div class="footer_contact_info">

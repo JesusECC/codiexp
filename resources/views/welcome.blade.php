@@ -21,7 +21,7 @@
                                         <div class="home_subtitle"></div>
                                     </div>
                                     <div class="home_buttons">
-                                        <div class="button home_button"><a href="#">Leer Más<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+                                        <!-- <div class="button home_button"><a href="#">Leer Más<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div> -->
                                         <!--<div class="button home_button"><a href="#">CODIEXP EN HACKATONES<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>-->
                                     </div>
                                 </div>
@@ -46,7 +46,7 @@
                                         <div class="home_subtitle"></div>
                                     </div>
                                     <div class="home_buttons">
-                                        <div class="button home_button"><a href="#">Leer Más<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
+                                        <!-- <div class="button home_button"><a href="#">Leer Más<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div> -->
                                         <!--<div class="button home_button"><a href="#">see all courses<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>-->
                                     </div>
                                 </div>
@@ -56,30 +56,7 @@
                 </div>
             </div>
 
-            <!-- Slider Item -->
-            <div class="owl-item">
-                <!-- Background image artist https://unsplash.com/@benwhitephotography -->
-                <div class="home_slider_background" style="background-image:url(images/index.jpg)"></div>
-                <div class="home_container">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col">
-                                <div class="home_content text-center">
-                                    <div class="home_logo"><img src="images/home_logo.png" alt=""></div>
-                                    <div class="home_text">
-                                        <div class="home_title">Segundo Puesto Hackaton La Positiva</div>
-                                        <!-- <div class="home_subtitle">Maecenas rutrum viverra sapien sed fermentum. Morbi tempor odio eget lacus tempus pulvinar. Praesent vel nisl fermentum, gravida augue ut, fermentum ipsum.</div> -->
-                                    </div>
-                                    <div class="home_buttons">
-                                        <div class="button home_button"><a href="#">LEER MÁS <div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>
-                                        <!-- <div class="button home_button"><a href="#">see all courses<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
 
         </div>
     </div>
@@ -157,13 +134,32 @@
                                 <div class="course_body">
                                     <div class="course_header d-flex flex-row align-items-center justify-content-start">
                                         <div class="course_tag"><a href="#">Hackathon</a></div>
-                                        <div class="course_price ml-auto">Particpantes: <span></span></div>
+                                        <div class="course_price ml-auto">Particpantes: <span>5</span></div>
                                     </div>
                                     <div class="course_title"><h3><a href="courses.html">HACKATHON CISCO HERE TECHNOLOGIES</a></h3></div>
                                     <div class="course_text">Ésta es tu oportunidad para resolver problemas globales. El reto consiste en integrar tecnologías teniendo en cuenta temas ambientales.</div>
                                     <div class="course_footer d-flex align-items-center justify-content-start">
                                         <div class="course_author_name">Por <a href="#">La UPN y Cisco Perú</a></div>
                                         <div class="course_sales ml-auto"><span>27</span> de 11-2018</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slider Item -->
+                        <div class="owl-item">
+                            <div class="course">
+                                <div class="course_image"><img src="images/bcrp.jpg" alt="" height="215"></div>
+                                <div class="course_body">
+                                    <div class="course_header d-flex flex-row align-items-center justify-content-start">
+                                        <div class="course_tag"><a href="#">Hackathon</a></div>
+                                        <div class="course_price ml-auto">Particpantes: <span>5</span></div>
+                                    </div>
+                                    <div class="course_title"><h3><a href="courses.html">HACKATHON BCRP </a></h3></div>
+                                    <div class="course_text">Proponer y desarrollar un aplicativo móvil (App) que permita asistir de manera fácil, rápida y oportuna a la ciudadanía en la verificación de los diferentes elementos de seguridad de los billetes y monedas.</div>
+                                    <div class="course_footer d-flex align-items-center justify-content-start">
+                                        <div class="course_author_name">Por <a href="#">BCRP</a></div>
+                                        <div class="course_sales ml-auto"><span>1 -2 </span> de 12-2018</div>
                                     </div>
                                 </div>
                             </div>
@@ -276,11 +272,11 @@ Para este fin se diseñó un sistema domótico basado en la plataforma arduino p
 -->
             <!-- Events -->
 
-            <div class="col-lg-6 grouped_col">
+            <!-- <div class="col-lg-6 grouped_col">
                 <div class="grouped_title">Eventos Próximos</div>
                 <div class="events">
 
-                    <!-- Event -->
+                    Event
                     <div class="event d-flex flex-row align-items-start justify-content-start">
                         <div>
                             <div class="event_date d-flex flex-column align-items-center justify-content-center">
@@ -294,7 +290,7 @@ Para este fin se diseñó un sistema domótico basado en la plataforma arduino p
                         </div>
                     </div>
 
-                    <!-- Event -->
+                    Event
                     <div class="event d-flex flex-row align-items-start justify-content-start">
                         <div>
                             <div class="event_date d-flex flex-column align-items-center justify-content-center">
@@ -308,7 +304,7 @@ Para este fin se diseñó un sistema domótico basado en la plataforma arduino p
                         </div>
                     </div>
 
-                    <!-- Event -->
+                    Event
                     <div class="event d-flex flex-row align-items-start justify-content-start">
                         <div>
                             <div class="event_date d-flex flex-column align-items-center justify-content-center">
@@ -322,7 +318,7 @@ Para este fin se diseñó un sistema domótico basado en la plataforma arduino p
                         </div>
                     </div>
 
-                    <!-- Event -->
+                    Event
                     <div class="event d-flex flex-row align-items-start justify-content-start">
                         <div>
                             <div class="event_date d-flex flex-column align-items-center justify-content-center">
@@ -336,7 +332,7 @@ Para este fin se diseñó un sistema domótico basado en la plataforma arduino p
                         </div>
                     </div>
 
-                    <!-- Event -->
+                    Event
                     <div class="event d-flex flex-row align-items-start justify-content-start">
                         <div>
                             <div class="event_date d-flex flex-column align-items-center justify-content-center">
@@ -353,13 +349,13 @@ Para este fin se diseñó un sistema domótico basado en la plataforma arduino p
                 </div>
             </div>
 
-            <!-- News -->
+            News
 
             <div class="col-lg-6 grouped_col">
                 <div class="grouped_title">Últimas Noticias</div>
                 <div class="news">
                     
-                    <!-- News Post -->
+                    News Post
                     <div class="news_post d-flex flex-row align-items-start justify-content-start">
                         <div><div class="news_post_image"><img src="images/news_1.jpg" alt="https://unsplash.com/@beccatapert"></div></div>
                         <div class="news_post_body">
@@ -369,7 +365,7 @@ Para este fin se diseñó un sistema domótico basado en la plataforma arduino p
                         </div>
                     </div>
 
-                    <!-- News Post -->
+                    News Post
                     <div class="news_post d-flex flex-row align-items-start justify-content-start">
                         <div><div class="news_post_image"><img src="images/news_2.jpg" alt="https://unsplash.com/@nbb_photos"></div></div>
                         <div class="news_post_body">
@@ -379,7 +375,7 @@ Para este fin se diseñó un sistema domótico basado en la plataforma arduino p
                         </div>
                     </div>
 
-                    <!-- News Post -->
+                    News Post
                     <div class="news_post d-flex flex-row align-items-start justify-content-start">
                         <div><div class="news_post_image"><img src="images/news_3.jpg" alt="https://unsplash.com/@rawpixel"></div></div>
                         <div class="news_post_body">
@@ -389,7 +385,7 @@ Para este fin se diseñó un sistema domótico basado en la plataforma arduino p
                         </div>
                     </div>
 
-                    <!-- News Post -->
+                    News Post
                     <div class="news_post d-flex flex-row align-items-start justify-content-start">
                         <div><div class="news_post_image"><img src="images/news_4.jpg" alt="https://unsplash.com/@jtylernix"></div></div>
                         <div class="news_post_body">
@@ -400,7 +396,7 @@ Para este fin se diseñó un sistema domótico basado en la plataforma arduino p
                     </div>
 
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </div>

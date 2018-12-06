@@ -23,6 +23,7 @@ Route::get('investigadores',['as' => 'investigadores-index','uses'=>'Investigado
 Route::get('investigaciones',['as' => 'investigaciones-index','uses'=>'InvestigacionController@index']);
 // rutas para ver las ppaer codiexp
 Route::get('investigacion/{id}/codiexp',['as' => 'investigacionCodiexp','uses'=>'InvestigacionController@investigacion']);
+
 // investigaciones upn
 Route::get('investigaciones/upn',['as' => 'investigacionesUpn-index','uses'=>'InvestigacionUpnController@index']);
 

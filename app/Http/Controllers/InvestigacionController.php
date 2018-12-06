@@ -18,13 +18,16 @@ class InvestigacionController extends Controller
     {
         //
         $investigacion = DB::table('articulo')
+        ->where('estado','=','concluido')
         ->where('realizo','=','cic')
         ->get();
+        // dd($investigacion);
         return view("investigacion.index",['investigacion'=>$investigacion]);    
     }
     public function investigacion($id)
     {
         $investigacion = DB::table('articulo')
+        ->where('estado','=','concluido')
         ->where('id','=',$id)
         ->get();
         // dd($investigacion);

@@ -152,7 +152,7 @@ h3 {
 			<div class="col-lg-4 col-md-6">
 				<div class="course">
 					<div class="course_image">
-						<img src="{{asset('images/course_3.jpg')}}" alt="">
+						<img src="{{asset('images/papers/'.$in->foto)}}" alt="" width="100%" height="25%">
 					</div>
 					<div class="course_body">
 						<div class="course_title">

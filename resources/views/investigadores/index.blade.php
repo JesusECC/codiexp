@@ -83,7 +83,7 @@ img {
 							<div class="teacher_title"><a href="#">{{$in->nombre}} {{$in->apellido}}</a></div>
 							<div class="teacher_subtitle">{{ substr($in->perfil, 0, 200)}}...</div>
 							<div class="teacher_social">
-								<div class="button teachers_button" style="margin-top: 5px"><a href="#">Ver más<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>								
+								<!-- <div class="button teachers_button" style="margin-top: 5px"><a href="#">Ver más<div class="button_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></div></a></div>								 -->
 								<!--<ul>
 									<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
 									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>

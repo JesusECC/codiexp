@@ -131,7 +131,7 @@ img {
 		<div class="row">
 			<div class="col-lg-10 offset-lg-1">
 				<div class="section_title text-center">
-					<h2>Investigaciones</h2>
+					<h2>Investigaciones UPN</h2>
 				</div>
 			</div>
 		</div>
@@ -158,7 +158,7 @@ img {
 			</div>
 			<div class="col-lg-6 featured_col">
 				<div class="featured_background" style="">
-                    <img src="{{asset('images/paper/'.$investigacion[0]->foto)}}" alt="" width="100%">
+                    <img src="{{asset('images/papers/paper1.jpg')}}" alt="" width="100%">
 				</div>
 			</div>
 		</div>
